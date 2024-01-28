@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-style: mario;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #3D5B81;
+    color: #fff;
+    padding: 20px 20px;
+    z-index: 100;
+  }
+  
+  
+
+body{
+    background-image: linear-gradient(to right, #DFFBFC, #9BC0D9);
+}
+
+main{
+    background-color: #fff;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #2932419d;
+}
+
+h1{
+    color:#EE6B4D;
+    text-align: center;
+    text-shadow: 1px 1px 2px #8f402e;
+}
+
+h2{
+    color:#3D5B81
+}
+
+p{
+    text-align: justify;
+}
+
+iframe{
+    border-radius: 10px;
+    margin: 50px;
+}
+
+@font-face {
+    font-family:'mario';
+    src: url('fontes/SuperMario256.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+

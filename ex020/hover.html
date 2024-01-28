@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+        } 
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+            text-align: center;
+        }
+        div:hover{
+            color:red;
+        }
+
+        div > img{
+            display: none;
+            width: 300px;
+        }
+
+        div:hover > img{
+            display: block;
+        }
+
+        .panda:hover{
+            color: blue;
+        }
+         .panda{
+            color: rgb(255, 0, 191);
+            font-size: 3em;
+         }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>passe o mouse sobre o texto abaixo.</p>
+    <div>
+        Passe o mouse aqui!
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>fim do exemplo.</p>
+
+    <h1>Brincando Sozinha</h1>
+    <div class="panda">
+        PANDAS!
+        <img src="/html e css/ex020/imagem/Grosser_Panda.JPG" alt="panda">
+    </div>
+</body>
+</html>
